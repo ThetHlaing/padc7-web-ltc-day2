@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flexbox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .container {
+            display: flex;            
+            width:700px;
+            margin:0 auto;
+        }
+
+        .item{
+            padding:50px;            
+            color:#fff;
+            background-color:#000;
+            text-align: center;   
+            border:1px solid white; 
+        }
+
+        .item:first-child{
+        }
+
+        .item:last-child{
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <!-- send 9 to the first and 1 to the last-->
+    <!-- wrap the items to make it fit in with the main container-->
+    <!-- reverse the order-->
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+    </div>
+
+    Ref : <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" />CSS Trick</a>
+</body>
+
+</html>

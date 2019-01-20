@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gridbox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .container {
+            display: grid;
+            width: 700px;
+            height:500px;
+            margin: 0 auto;
+            grid-template-columns:100px 100px 100px 100px 100px;
+            grid-template-rows:100px 100px 100px;
+        }
+
+        .item {
+            padding: 50px;
+            color: #fff;
+            background-color: #000;
+            text-align: center;
+            border: 1px solid white;          
+        }
+
+        /* .item:nth-child(8){
+            grid-column-start: 3;
+            grid-column-end: 3;
+        }
+        .item:first-child {
+            grid-column-start: 2;
+            grid-column-end: 10;
+            grid-row-start: 1;
+            grid-row-end: 1
+        }
+
+        .item:last-child {
+            grid-column: 1 / 10;            
+        } */
+    </style>
+
+</head>
+
+<body>
+    <!-- increase the size of the first item to 5 rows-->
+    <!-- fill up the row below item 1 with item 8-->    
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+    </div>
+
+    Ref : <a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank" />CSS Trick</a>
+</body>
+
+</html>
