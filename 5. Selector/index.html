@@ -8,6 +8,42 @@
 		#main-menu{
 			list-style:none;
 		}
+		#main-menu > li:first-child{
+			font-size:30px;
+		}
+
+		#main-menu > li:nth-child(2){
+			text-decoration: underline;
+		}
+
+		#main-menu li:nth-child(3){
+			color:red;
+		}
+
+		#main-menu li[data-type="hidden-menu"]{
+			display: none;
+		}
+
+		ul ul li:first-child{
+			font-weight: bold;
+		}
+
+		ul  ul li:last-child{
+			color:blue;
+		}
+
+		li[data-type="green-menu"]{
+			background-color: green;
+		}
+
+		#main-menu > li:last-child{
+			color :red;
+		}
+
+		#checkbox1:checked ~ label{
+			color:red;
+		}
+
 	</style>
 	
 </head>

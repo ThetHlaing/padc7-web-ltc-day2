@@ -1,0 +1,14 @@
+lable{
+    min-width:150px;
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif !important;
+}
+input{
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="email"]{
+    color:green;
+}

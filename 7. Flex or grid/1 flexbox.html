@@ -9,6 +9,7 @@
             display: flex;            
             width:700px;
             margin:0 auto;
+            flex-wrap: wrap;
         }
 
         .item{
@@ -20,9 +21,11 @@
         }
 
         .item:first-child{
+            order:1;
         }
 
         .item:last-child{
+            order:-1;
         }
 
     </style>
